@@ -1,0 +1,754 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../../../Font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "sign";
+    src: url("../../../Font/Creattion\ Demo.otf");
+}
+
+.img-parent {
+    width: 400px;
+    height: 400px;
+    background-color: #f3b816;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 40px;
+
+
+}
+
+.img-parent>img {
+    width: 130%;
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+
+.parent-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.hello-head {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    line-height: 60px;
+    font-family: "roboto";
+}
+
+.name-head {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: white;
+    font-family: "roboto";
+}
+
+.para {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+    font-family: "roboto";
+}
+
+.sp {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #feb901;
+    margin-top: 20px;
+}
+
+.icon-parent {
+    display: flex;
+}
+
+.icon-parent>div>a {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.icon-parent>div>a:hover {
+    color: #f3b816;
+
+}
+
+.js-icon {
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    transform: rotate(30deg);
+}
+
+.html-icon {
+    position: relative;
+    bottom: 270px;
+    right: 30px;
+    transform: rotate(-0.10turn);
+    width: 90px;
+}
+
+.next-icon {
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+    transform: rotate(20deg);
+    width: 50px;
+}
+
+.react-icon {
+    position: relative;
+    bottom: 430px;
+    left: 20px;
+    transform: rotate(20deg);
+    width: 50px;
+}
+
+.css-icon {
+    position: relative;
+    bottom: 400px;
+    right: 160px;
+    transform: rotate(20deg);
+    width: 70px;
+}
+
+
+.fire-icon {
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    transform: rotate(320deg);
+    width: 80px;
+}
+
+.mongo-icon {
+    position: relative;
+    bottom: 270px;
+    left: 320px;
+    transform: rotate(-40deg);
+    width: 80px;
+}
+
+.spp {
+    font-family: "sign";
+    font-size: 80px;
+    font-weight: 400;
+    color: #f3b816;
+}
+
+@media (max-width: 390px) {
+
+    .parent-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-parent {
+        width: 300px;
+        height: 300px;
+        background-color: #f3b816;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+        margin-right: 0px;
+        margin-top: 40px;
+
+
+    }
+
+    .img-parent>img {
+        width: 130%;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+
+    .mongo-icon {
+        position: relative;
+        bottom: 170px;
+        left: -20px;
+        transform: rotate(-40deg);
+        width: 50px;
+    }
+
+    .js-icon {
+        position: relative;
+        bottom: 40px;
+        right: 10px;
+        transform: rotate(30deg);
+        width: 20px;
+    }
+
+    .html-icon {
+        position: relative;
+        bottom: 230px;
+        right: 30px;
+        transform: rotate(-0.10turn);
+        width: 50px;
+    }
+
+    .css-icon {
+        position: relative;
+        bottom: 300px;
+        right: 40px;
+        transform: rotate(20deg);
+        width: 40px;
+    }
+
+    .fire-icon {
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+        transform: rotate(320deg);
+        width: 50px;
+    }
+
+    .next-icon {
+        position: relative;
+        bottom: 270px;
+        left: 30px;
+        transform: rotate(20deg);
+        width: 30px;
+    }
+
+    .react-icon {
+        position: relative;
+        bottom: 330px;
+        left: 20px;
+        transform: rotate(20deg);
+        width: 30px;
+    }
+
+    .icon-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*  */
+    .hello-head {
+        font-size: 30px;
+        font-weight: 700;
+        color: #feb901;
+        line-height: 40px;
+    }
+
+    .name-head {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        color: white;
+    }
+    .spp {
+        font-family: "sign";
+        font-size: 40px;
+        font-weight: 400;
+        color: #f3b816;
+    }
+
+    .para {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+    .Child-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (min-width: 390px) and (max-width: 576px) {
+
+    .parent-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-parent {
+        width: 350px;
+        height: 350px;
+        background-color: #f3b816;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+        margin-right: 0px;
+        margin-top: 40px;
+
+
+    }
+
+    .img-parent>img {
+        width: 130%;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+
+    .mongo-icon {
+        position: relative;
+        bottom: 170px;
+        left: 30px;
+        transform: rotate(-40deg);
+        width: 50px;
+    }
+
+    .js-icon {
+        position: relative;
+        bottom: 40px;
+        right: 10px;
+        transform: rotate(30deg);
+        width: 40px;
+    }
+
+    .html-icon {
+        position: relative;
+        bottom: 230px;
+        right: 50px;
+        transform: rotate(-0.10turn);
+        width: 50px;
+    }
+
+    .css-icon {
+        position: relative;
+        bottom: 340px;
+        right: 40px;
+        transform: rotate(20deg);
+        width: 40px;
+    }
+
+    .fire-icon {
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+        transform: rotate(320deg);
+        width: 50px;
+    }
+
+    .next-icon {
+        position: relative;
+        bottom: 270px;
+        left: 80px;
+        transform: rotate(20deg);
+        width: 30px;
+    }
+
+    .react-icon {
+        position: relative;
+        bottom: 380px;
+        left: 40px;
+        transform: rotate(20deg);
+        width: 35px;
+    }
+
+    .icon-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*  */
+    .hello-head {
+        font-size: 30px;
+        font-weight: 700;
+        color: #feb901;
+        line-height: 40px;
+    }
+
+    .name-head {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        color: white;
+    }
+    .spp {
+        font-family: "sign";
+        font-size: 40px;
+        font-weight: 400;
+        color: #f3b816;
+    }
+
+    .para {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+    .Child-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .parent-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-parent {
+        width: 500px;
+        height: 500px;
+        background-color: #f3b816;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+        margin-right: 0px;
+        margin-top: 40px;
+
+
+    }
+
+    .img-parent>img {
+        width: 130%;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+
+    .mongo-icon {
+        position: relative;
+        bottom: 170px;
+        left: 20px;
+        transform: rotate(-40deg);
+        width: 70px;
+    }
+
+    .js-icon {
+        position: relative;
+        bottom: 40px;
+        right: 10px;
+        transform: rotate(30deg);
+        width: 40px;
+    }
+
+    .html-icon {
+        position: relative;
+        bottom: 330px;
+        right: 80px;
+        transform: rotate(-0.10turn);
+        width: 80px;
+    }
+
+    .css-icon {
+        position: relative;
+        bottom: 480px;
+        right: 70px;
+        transform: rotate(20deg);
+        width: 70px;
+    }
+
+    .fire-icon {
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+        transform: rotate(320deg);
+        width: 50px;
+    }
+
+    .next-icon {
+        position: relative;
+        bottom: 310px;
+        left: 100px;
+        transform: rotate(20deg);
+        width: 60px;
+    }
+
+    .react-icon {
+        position: relative;
+        bottom: 480px;
+        left: 90px;
+        transform: rotate(20deg);
+        width: 65px;
+    }
+
+    .icon-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*  */
+    .hello-head {
+        font-size: 50px;
+        font-weight: 700;
+        color: #feb901;
+        line-height: 60px;
+    }
+
+    .name-head {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        color: white;
+    }
+
+    .para {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+    .Child-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .parent-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-parent {
+        width: 500px;
+        height: 500px;
+        background-color: #f3b816;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+        margin-right: 0px;
+        margin-top: 40px;
+
+
+    }
+
+    .img-parent>img {
+        width: 130%;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+
+    .mongo-icon {
+        position: relative;
+        bottom: 170px;
+        left: 20px;
+        transform: rotate(-40deg);
+        width: 70px;
+    }
+
+    .js-icon {
+        position: relative;
+        bottom: 40px;
+        right: 10px;
+        transform: rotate(30deg);
+        width: 40px;
+    }
+
+    .html-icon {
+        position: relative;
+        bottom: 330px;
+        right: 80px;
+        transform: rotate(-0.10turn);
+        width: 80px;
+    }
+
+    .css-icon {
+        position: relative;
+        bottom: 480px;
+        right: 70px;
+        transform: rotate(20deg);
+        width: 70px;
+    }
+
+    .fire-icon {
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+        transform: rotate(320deg);
+        width: 50px;
+    }
+
+    .next-icon {
+        position: relative;
+        bottom: 310px;
+        left: 100px;
+        transform: rotate(20deg);
+        width: 60px;
+    }
+
+    .react-icon {
+        position: relative;
+        bottom: 480px;
+        left: 90px;
+        transform: rotate(20deg);
+        width: 65px;
+    }
+
+    .icon-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*  */
+    .hello-head {
+        font-size: 50px;
+        font-weight: 700;
+        color: #feb901;
+        line-height: 60px;
+    }
+
+    .name-head {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        color: white;
+    }
+
+    .para {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+    .Child-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .para {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .sp {
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #feb901;
+        margin-top: 20px;
+    }
+
+}

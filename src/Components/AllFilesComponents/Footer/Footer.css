@@ -1,0 +1,72 @@
+.footer {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.footer>span {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.parent-side {
+    background-color: #efae02;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    height: auto;
+
+}
+
+.last-logo-Work {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    font-family: "lato";
+
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("../../../Font/AntonSC-Regular.ttf");
+}
+
+
+@media (max-width: 390px){
+    .parent-side {
+        background-color: #efae02;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 50px;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    
+    }
+}
+
+@media (min-width: 390px) and (max-width: 576px){
+    .parent-side {
+        background-color: #efae02;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin-top: 50px;
+        align-items: center;
+        height: auto;
+    
+    }
+    
+
+}

@@ -1,0 +1,237 @@
+.head-Eduaction {
+    text-align: center;
+    color: #efae02;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    border-bottom: 2px solid #efae02;
+    border-top: 2px solid #efae02;
+    padding: 10px;
+}
+
+.ChildOne-Eduction {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    padding: 20px 20px 20px 10px;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+
+.Matric {
+    width: 150px;
+    background-color: black;
+    height: auto;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Matric>i {
+    color: #efae02;
+}
+
+.Matric>h5 {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+.matric-parent{
+    display: flex;
+    justify-content: end;
+}
+.head-matric{
+    font-size: 24px;
+    color: #efae02;
+    line-height: 30px;
+    font-weight: 600;
+}
+.place{
+    font-size: 20px;
+    color: black;
+    line-height: 25px;
+
+}
+.place-parent{
+    margin-top: 40px;
+    padding: -10px;
+}
+.icon01{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: #efae02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.icon02{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: #efae02;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-right: 10px;
+}   
+.school-name{
+    font-size: 16px;
+    color: black;
+    margin-top: 3px;
+
+}
+
+.school-name01{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-top: 3px;
+    position: relative;
+    top: 7px;
+}
+.place-iconParent{
+    display: flex;
+    margin-top: 20px;
+}
+.education-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+@media (max-width: 390px){
+    .education-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .ChildOne-Eduction {
+        width: 300px;
+        height:  auto;
+        background-color: white;
+        padding: 20px 20px 20px 10px;
+        border-radius: 40px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .head-Eduaction {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+    
+}
+
+
+@media (min-width: 390px) and (max-width: 576px){
+    .education-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .ChildOne-Eduction {
+        width: 300px;
+        height:  auto;
+        background-color: white;
+        padding: 20px 20px 20px 10px;
+        border-radius: 40px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .head-Eduaction {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .education-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .ChildOne-Eduction {
+        width: 300px;
+        height:  auto;
+        background-color: white;
+        padding: 20px 20px 20px 10px;
+        border-radius: 40px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .head-Eduaction {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .education-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .ChildOne-Eduction {
+        width: 300px;
+        height:  auto;
+        background-color: white;
+        padding: 20px 20px 20px 10px;
+        border-radius: 40px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .head-Eduaction {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+    
+}

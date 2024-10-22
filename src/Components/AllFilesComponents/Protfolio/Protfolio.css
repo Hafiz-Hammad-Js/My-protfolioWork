@@ -1,0 +1,209 @@
+.ProjectsHead {
+    font-size: 40PX;
+    color: #efae02;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+    border-bottom: 2px solid #efae02;
+    border-top: 2px solid #efae02;
+    padding: 10px;
+}
+.GIT{
+    text-decoration: none;
+    color: #efae02;
+    padding-left: 10px;
+}
+
+.protfolio-parent {
+    margin: 70px 10px 20px 10px;
+    height: auto;
+    background-color: #efae02;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.protfolio-childOne-01 {
+    width: 45%;
+    height: auto;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.protfolio-childOne-01>img {
+    width: 100%;
+}
+
+.protfolio-childTow-02 {
+    margin-left: 10px;
+    width: 500px;
+}
+
+
+
+.protfolio-childTow-02>H2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+}
+
+.protfolio-childTow-02>p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.sieCate-child-01 {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    
+}
+
+.sieCate-child-01>span {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.skill-parent-tect {
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 03px;
+}
+
+.logoImg-parent {
+    width: 30px;
+    height: 30px;
+    margin-right: 03px;
+    overflow: hidden;
+}
+
+.logoImg-parent>img {
+    width: 100%;
+}
+
+.tect-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.tech-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-work {
+    width: 150px;
+    height: auto;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.link-work>a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.git-btn{
+    display: flex;
+    justify-content:center ;
+    margin-top: 50px;
+}
+
+.git-btn>button{
+    width: 150px;
+    background-color: #644900;
+    border: 2px solid #efae02;
+    padding: 10px;
+    border-radius: 25px;
+    color: #efae02;
+}
+
+.workedON{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 390px) {
+    .protfolio-parent {
+        margin: 70px 10px 20px 10px;
+        height: auto;
+        background-color: #efae02;
+        border-radius: 25px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .protfolio-childOne-01 {
+        width: auto;
+        height: auto;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .protfolio-childTow-02 {
+        margin-left: 0px;
+        width:auto;
+    }
+    
+}
+
+@media (min-width: 390px) and (max-width: 576px) {
+    .protfolio-parent {
+        margin: 70px 10px 20px 10px;
+        height: auto;
+        background-color: #efae02;
+        border-radius: 25px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .protfolio-childOne-01 {
+        width: auto;
+        height: auto;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .protfolio-childTow-02 {
+        margin-left: 0px;
+        width: auto;
+    }
+}

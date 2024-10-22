@@ -1,0 +1,186 @@
+.head-Certificate {
+    text-align: center;
+    color: #efae02;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 70px;
+    border-bottom: 2px solid #efae02;
+    border-top: 2px solid #efae02;
+    padding: 10px;
+}
+
+.SkillsHead {
+    font-size: 40PX;
+    color: #efae02;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+.ChildOne-designin {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 10px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ChildTwo-designin {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.phot-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.Ai-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.html-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.node-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.java-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Ai-name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.designing-softwere {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+
+@media(max-width: 390px) {
+    .SkillsHead {
+        font-size: 24PX;
+        color: #efae02;
+        font-weight: 700;
+        text-align: center;
+        justify-content: center;
+        text-transform: capitalize;
+        margin-top: 100px;
+    }
+
+
+    .ChildOne-designin {
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        padding-left: 10px;
+        display: flex;
+        margin-left: 5px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .ChildTwo-designin {
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        margin-left: 05px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(min-width: 390px) and (max-width: 576px) {
+    .SkillsHead {
+        font-size: 24PX;
+        color: #efae02;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 100px;
+    }
+
+    .ChildOne-designin {
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        padding-left: 10px;
+        display: flex;
+        margin-left: 5px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .ChildTwo-designin {
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 15px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        margin-left: 05px;
+        margin-bottom: 20px;
+    }
+}
+
+.Resume{
+    padding: 10px 20px 10px 20px;
+    background-color: #efae02;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Resume:hover{
+    background-color: white;
+    color: #efae02;
+}
+.Resume-praent{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

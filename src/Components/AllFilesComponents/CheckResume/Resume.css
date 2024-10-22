@@ -1,0 +1,127 @@
+.Resume-Check {
+    font-size: 40PX;
+    color: #efae02;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+    border-bottom: 2px solid #efae02;
+    border-top: 2px solid #efae02;
+    padding: 10px;
+}
+
+.Resume-parent {
+    height: auto;
+    background-color: #181818;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.Img-parent-resume {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #efae02;
+    overflow: hidden;
+}
+
+.Img-parent-resume>img {
+    width: 100%;
+}
+
+.img-work-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.my-name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #efae02;
+    margin-top: 20px;
+}
+
+.my-heading-para {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+.bttn-pranet-resume{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btnss:hover{
+    background-color: white;
+    color: #efae02;
+}
+
+@media (max-width: 390px){
+    .my-name {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #efae02;
+        margin-top: 20px;
+    }
+    
+    .my-heading-para {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .Resume-Check {
+        font-size: 25PX;
+        color: #efae02;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 100px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+    
+}
+
+
+@media (min-width: 390px) and (max-width: 576px){
+    .my-name {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+        color: #efae02;
+        margin-top: 20px;
+    }
+    
+    .my-heading-para {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+    .Resume-Check {
+        font-size: 25PX;
+        color: #efae02;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 100px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+}

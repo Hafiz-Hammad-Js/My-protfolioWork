@@ -1,0 +1,316 @@
+.ContactMe {
+    font-size: 40PX;
+    color: #efae02;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+    border-bottom: 2px solid #efae02;
+    border-top: 2px solid #efae02;
+    padding: 10px;
+}
+
+.tect-logo-parent {
+    width: 40px;
+    height: 40px;
+    margin-right: 04px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tect-logo-parent>img {
+    width: 100%;
+}
+
+.Child-parent {
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.name-handel {
+    font-size: 20px;
+    font-weight: 700;
+    color: Black;
+
+}
+
+.handels-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.handels-parent>a{
+    text-decoration: none;
+}
+
+/* conatc us has started */
+
+.contact-us-parent {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.adject{
+    margin-top: 50px;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: 700;
+    color: #efae02;
+    margin-right: 10px;
+   
+}
+.Name-work{
+    width: 400px;
+    height: auto;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    background-color: #f3f3f3;
+    border: none;
+    padding: 15px;
+    margin-right:20PX ;
+}
+.contact-us-parent>div{
+    margin-top: 20px;
+}
+textarea{
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+    width: 1000px;
+    height: 200px;
+}
+.btn-parent-ME{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+@media (max-width: 390px){
+ 
+    .Name-work{
+        width: 260px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 20px;
+        outline: none;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 15px;
+        margin-right:0PX ;
+    }
+   
+    textarea{
+        padding: 20px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #f3f3f3;
+        width: 260px;
+        height: 200px;
+
+    }
+    .adject{
+        margin-top: 50px;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px;
+    
+    }
+    .ContactMe {
+        font-size: 24PX;
+        color: #efae02;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 100px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 576px){
+    .Name-work{
+        width: 300px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 20px;
+        outline: none;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 15px;
+        margin-right:0PX ;
+    }
+   
+    textarea{
+        padding: 20px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #f3f3f3;
+        width: 300px;
+        height: 200px;
+         
+    }
+    .adject{
+        margin-top: 50px;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 20px;
+    
+    }
+    .ContactMe{
+        font-size: 25px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .Name-work{
+        width: 300px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 20px;
+        outline: none;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 15px;
+        margin-right:0PX ;
+    }
+   
+    textarea{
+        padding: 20px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #f3f3f3;
+        width: 500px;
+        height: 200px;
+         
+    }
+    .adject{
+        margin-top: 50px;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 20px;
+    
+    }
+    .contact-us-parent {
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .Name-work{
+        width: 300px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 20px;
+        outline: none;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 15px;
+        margin-right:0PX ;
+    }
+   
+    textarea{
+        padding: 20px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #f3f3f3;
+        width: 500px;
+        height: 200px;
+         
+    }
+    .adject{
+        margin-top: 50px;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 20px;
+    
+    }
+    .contact-us-parent {
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .Name-work{
+        width: 300px;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 20px;
+        outline: none;
+        background-color: #f3f3f3;
+        border: none;
+        padding: 15px;
+        margin-right:10PX ;
+    }
+   
+    textarea{
+        padding: 20px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #f3f3f3;
+        width: 500px;
+        height: 200px;
+         
+    }
+    .adject{
+        margin-top: 50px;
+        height: auto;
+        background-color: white;
+        border-radius: 25px;
+        padding: 20px;
+    
+    }
+    .contact-us-parent {
+   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+}

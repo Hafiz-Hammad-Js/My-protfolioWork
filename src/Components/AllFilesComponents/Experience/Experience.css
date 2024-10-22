@@ -1,0 +1,153 @@
+.head-Experience {
+    text-align: center;
+    color: #efae02;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 70px;
+    border-bottom: 2px solid #efae02;
+    border-top: 2px solid #efae02;
+    padding: 10px;
+}
+.Experience-parent{
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.img-parentExperienec{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.img-parentExperienec>img{
+    width: 100%;
+}
+.company-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-left: 10px;
+}
+.company-location{
+    font-size: 16px;
+    font-weight: 600;
+    color: #efae02;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.childOne-child-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.subling{
+    height: 40px;
+    background-color: #f3e2b1;
+    padding: 10px;
+    border-radius: 20px;
+}
+.head-subling{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.logo-img-parent{
+    width: 48px;
+    height: 48px;
+    border-radius: 54%;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img-parent>img{
+    width: 100%;
+}
+.GD{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.childTow-child-parent{
+    display: flex;
+    margin-top: 20px;
+
+}
+.company-parent{
+    display: flex;
+ 
+ 
+}
+
+
+@media (max-width: 390px){
+    .childOne-child-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .childTow-child-parent{
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .Experience-parent{
+        width: 300px;
+        height: auto;
+        background-color: white;
+        border-radius: 30px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .head-Experience {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 70px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
+    }
+}
+
+
+@media (min-width: 390px) and (max-width: 576px){
+    .childOne-child-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .childTow-child-parent{
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .Experience-parent{
+        width: 300px;
+        height: auto;
+        background-color: white;
+        border-radius: 30px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .head-Experience {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 70px;
+     
+        padding: 10px;
+    }
+}

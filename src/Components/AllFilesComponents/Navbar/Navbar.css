@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "logo";
+    src: url("../../../Font/AntonSC-Regular.ttf");
+}
+@font-face {
+    font-family: "work";
+    src: url("../../../Font/Lato-Regular.ttf");
+}
+
+.navbar{
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #FEFEFE;
+    position: sticky;
+    top: 0;
+    z-index: 01;
+    margin-top: 20px;
+}
+.logo-div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f3b816;
+    border-radius: 50%;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+.logo-div>img{
+    width: 100%;
+}
+
+
+.logo-parent{
+  display: flex;
+}
+h4{
+    font-family: "logo";
+    position: relative;
+    top: 10px;
+    color: #feb901;
+}
+h4:hover{
+    color: #f3b816;
+    cursor: pointer;
+}
+.nav-item{
+    font-family: "work";
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-com-parent{
+    background-color: black;
+}
+.toogle-work{
+    background-color: #feb901;
+    color: white;
+}
+.nav-item >.nav-link:hover{
+    color: #feb901;
+    
+}
+@media (min-width: 992px){
+    .check-link{
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 992px){
+ .nav-item{
+    margin-top: 10px;
+ }
+}
+
+
+
