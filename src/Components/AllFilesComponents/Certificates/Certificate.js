@@ -28,7 +28,7 @@ function Certificate() {
 
     return <>
         <div className="container ">
-            <h1 className="head-Certificate animate__animated animate__swing">Certificates</h1>
+            <h1 className="head-ke animate__animated animate__swing">Certificates</h1>
 
             <div className="parent-certificatess">
 

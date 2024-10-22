@@ -8,7 +8,7 @@ function Skills() {
 
     return <>
         <div className="container">
-            <h1 className="head-Certificate animate__animated animate__swing">Skills</h1>
+            <h1 className="head-skill animate__animated animate__swing">Skills</h1>
             <h1 className="SkillsHead">designing softwere I use</h1>
 
             <div className="designing-softwere">

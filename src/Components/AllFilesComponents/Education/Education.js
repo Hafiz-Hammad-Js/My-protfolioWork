@@ -76,7 +76,7 @@ function Education() {
                         <div className="icon01">
                             <i class="fa-regular fa-note-sticky"></i>
                         </div>
-                        <h1 className="school-name"><strong>("I am still pursuing my studies.")</strong></h1>
+                        <h1 className="school-name"><strong>(I am still pursuing my studies.)</strong></h1>
                     </div>
                     {/* box-2-finished */}
                 </div>

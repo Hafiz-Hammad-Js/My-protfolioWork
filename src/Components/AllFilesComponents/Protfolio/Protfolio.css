@@ -16,7 +16,7 @@
 }
 
 .protfolio-parent {
-    margin: 70px 10px 20px 10px;
+   
     height: auto;
     background-color: #efae02;
     border-radius: 25px;
@@ -155,7 +155,7 @@
 
 @media (max-width: 390px) {
     .protfolio-parent {
-        margin: 70px 10px 20px 10px;
+      
         height: auto;
         background-color: #efae02;
         border-radius: 25px;
@@ -177,6 +177,9 @@
     .protfolio-childTow-02 {
         margin-left: 0px;
         width:auto;
+    }
+    .ProjectsHead{
+        font-size: 25px;
     }
     
 }

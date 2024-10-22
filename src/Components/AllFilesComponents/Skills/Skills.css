@@ -1,4 +1,4 @@
-.head-Certificate {
+.head-skill {
     text-align: center;
     color: #efae02;
     font-size: 50px;
@@ -126,6 +126,16 @@
         align-items: center;
         margin-left: 05px;
         margin-bottom: 20px;
+    }
+    .head-skill {
+        text-align: center;
+        color: #efae02;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 70px;
+        border-bottom: 2px solid #efae02;
+        border-top: 2px solid #efae02;
+        padding: 10px;
     }
 
 }

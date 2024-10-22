@@ -142,7 +142,12 @@
         border-top: 2px solid #efae02;
         padding: 10px;
     }
-    
+    .head-matric{
+        font-size: 18px;
+        color: #efae02;
+        line-height: 30px;
+        font-weight: 600;
+    }
 }
 
 

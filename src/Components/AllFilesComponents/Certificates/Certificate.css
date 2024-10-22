@@ -1,4 +1,4 @@
-.head-Certificate {
+.head-ke {
     text-align: center;
     color: #efae02;
     font-size: 50px;
@@ -182,7 +182,7 @@
         margin-left: 10px;
     }
 
-    .head-Certificate {
+    .head-ke {
         text-align: center;
         color: #efae02;
         font-size: 30px;
@@ -191,7 +191,9 @@
         border-bottom: 2px solid #efae02;
         border-top: 2px solid #efae02;
         padding: 10px;
+        margin-bottom: 50px;
     }
+
 }
 
 @media(min-width: 390px) and (max-width: 576px) {
